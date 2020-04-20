@@ -17,9 +17,9 @@ public class Main {
         QLSV sv = new QLSV();
         // khai báo ngày tháng 
         SimpleDateFormat dt = new SimpleDateFormat("dd:MM:yyyy");
-        SinhVien sv1 = new SinhVien("phạm văn cường", dt.parse("10/05/1999"), 8);
-        SinhVien sv2 = new SinhVien("đỗ văn a", dt.parse("20/07/1999"), 7);
-        SinhVien sv3 = new SinhVien("lê thành đạt", dt.parse("01/03/1999"), 6);
+        SinhVien sv1 = new SinhVien("phạm văn cường", dt.parse("10:05:1999"), 8);
+        SinhVien sv2 = new SinhVien("đỗ văn a", dt.parse("20:07:1999"), 7);
+        SinhVien sv3 = new SinhVien("lê thành đạt", dt.parse("01:03:1999"), 6);
         
        sv.them(sv1);
        sv.them(sv2);
