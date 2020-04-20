@@ -9,11 +9,14 @@ package BT3;
  *
  * @author Cuong Pham
  */
-public class SoSanhTheoTen implements ISoSanh<SinhVien>{
+public class SoSanhTheoDiem implements ISoSanh<SinhVien>{
 
     @Override
     public int soSanh(SinhVien sv1, SinhVien sv2) {
-        
-     return sv1.getHoTen().compareTo(sv2.getHoTen());   
+        if(sv1.getDiemTB() > sv2.getDiemTB())
+        return 1;
+        else if(sv1.getDiemTB() == sv2.getDiemTB())
+            return 0;
+        return -1;
     }
 }

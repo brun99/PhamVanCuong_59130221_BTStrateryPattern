@@ -10,5 +10,5 @@ package BT3;
  * @author Cuong Pham
  */
 public interface ISoSanh<T> {
-    public int soSanh(T o1, T o2);
+    public int soSanh(T sv1, T sv2);
 }

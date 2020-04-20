@@ -7,6 +7,7 @@ package BT3;
 
 import java.util.Date;
 
+
 /**
  *
  * @author Cuong Pham
@@ -49,4 +50,9 @@ public class SinhVien {
         this.diemTB = diemTB;
     }
     
+    public void HienThi(){
+    System.out.println("Họ tên SV :" +hoTen);
+    System.out.println("Ngày sinh  :" +ngaySinh);
+    System.out.println("điểm trung bình :" +diemTB);
+    }
 }
